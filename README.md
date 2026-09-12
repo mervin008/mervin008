@@ -89,7 +89,6 @@ main event:
 |:--|:--|
 | [**Graphi-X**](https://github.com/mervin008/Graphi-X) | Sketch a maths problem on a canvas and get it solved. Gemini vision reads the drawing; FastAPI serves it. |
 | [**mxc-ai-bot**](https://github.com/mervin008/mxc-ai-bot) | A Telegram bot with switchable LLM backends — Gemini, OpenAI, DeepSeek — with image input and per-user model selection. |
-| **CertHub** | TLS certificate lifecycle dashboard over Google Cloud Certificate Authority Service. Vue SPA, FastAPI backend. *(private)* |
 | **Terraform Proxmox** | A module for full-clone Proxmox VMs — sizing, networking and cloud-init in one configuration. *(private)* |
 
 ---

@@ -1,16 +1,12 @@
 <div align="center">
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  root@mervinjones.dev:~$ whoami                             │
-│                                                             │
-│  MERVIN JONES D                                             │
-│  Cloud Security & PKI Engineer                              │
-│  Frankfurt, Germany                                         │
-│                                                             │
-│  [SYSTEM: ONLINE]                                           │
-└─────────────────────────────────────────────────────────────┘
-```
+<a href="https://mervinjones.dev/">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&width=750&height=60&lines=Initializing+Secure+Connection...;Cloud+Security+%26+PKI+Engineer;Enterprise+Certificate+Lifecycle+Management;Creator+of+CertPilot" alt="Cloud Security and PKI Engineer" />
+</a>
+
+# Mervin Jones D
+
+`root@mervinjones.dev:~$` · Frankfurt, Germany
 
 [![Website](https://img.shields.io/badge/mervinjones.dev-00F0FF?style=flat-square&logo=googlechrome&logoColor=050510)](https://mervinjones.dev/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-00F0FF?style=flat-square&logo=linkedin&logoColor=050510)](https://www.linkedin.com/in/mervinjonesd/)
@@ -126,14 +122,9 @@ Enterprise and Apigee X
 ---
 
 <div align="center">
-<sub>
 
-```
-root@mervinjones.dev:~$ █
-```
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=4000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&height=30&lines=Happy+to+talk+about+PKI%2C+certificate+automation...;...or+anything+self-hosted." alt="Get in touch" />
 
-BE Electronics & Communication Engineering · K. Ramakrishnan College of Engineering<br/>
-Happy to talk about PKI, certificate automation, or anything self-hosted.
+<sub>BE Electronics &amp; Communication Engineering · K. Ramakrishnan College of Engineering</sub>
 
-</sub>
 </div>

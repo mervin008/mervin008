@@ -10,9 +10,6 @@
   <a href="https://www.linkedin.com/in/mervinjonesd/">
     <img src="https://img.shields.io/badge/LinkedIn-0a7ea4?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://mervinjones.com/">
-    <img src="https://img.shields.io/badge/Portfolio-0a7ea4?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" />
-  </a>
   <a href="mailto:dmervinjones@gmail.com">
     <img src="https://img.shields.io/badge/Email-0a7ea4?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
@@ -23,73 +20,69 @@
 
 ---
 
-### Everyone automates certificates. Almost nobody automates the authority that signs them.
+Infrastructure and cloud security engineer, five years in, working on enterprise
+PKI and certificate lifecycle management.
 
-An expiring leaf certificate breaks one service. An expiring **issuing CA** takes
-down every certificate it ever signed — and no amount of certificate automation
-helps you after that has happened.
+Based in Frankfurt, where I build automated PKI control planes, intermediate CA
+lifecycles, and cryptographic governance across multi-tenant enterprise
+environments. Most of what I enjoy sits in the unglamorous, load-bearing part of
+security — the systems that quietly hold everything else up, and take a lot with
+them when they don't.
 
-That gap is what I work on. Five years of it: enterprise PKI, certificate
-lifecycle management, and the cloud-native plumbing that has to survive both.
-
-```
-CA/Browser Forum maximum TLS validity
-
-  398 days  ──────────────────────────────────────────────  today
-  200 days  ────────────────────────                        March 2026
-  100 days  ────────────                                    March 2027
-   47 days  ────                                            March 2029
-```
-
-At 47 days, an estate of ten thousand certificates is **~670 renewals every
-day**, continuously. Anything with a human in the loop stopped working long
-before that.
+I also run a small private cloud at home, which is where most of what I learn
+gets tried first.
 
 ---
 
-### 🛠 What I do
+### 💼 Experience
 
-**Enterprise PKI & CLM** — X.509 lifecycle automation, intermediate and issuing
-CA rotation, Certificate Transparency log discovery, ACME (RFC 8555), zero-trust
-mutual TLS
+**Engineer** — Tata Consultancy Services, Frankfurt am Main · *Jun 2026 – present*<br/>
+Automated certificate pipelines over Google Cloud CAS; provisioning, renewal and
+ingress binding for microservices across GKE with Terraform and GitOps; monitoring
+and alerting to keep expiries from becoming outages.
 
-**Cloud & DevOps** — Google Cloud CAS, GKE, IAM, Terraform, Docker, Linux, CI/CD
-security automation
-
-**Cryptography, forward-looking** — Confidential Computing, encryption-in-use
-architectures, and post-quantum readiness: measuring which endpoints negotiate a
-PQ key exchange today rather than waiting for signatures to catch up
+**System Engineer** — Tata Consultancy Services, Chennai · *Oct 2021 – May 2026*<br/>
+PKI and DevOps: certificate management with Cert Hub, Google CAS, Terraform and
+GKE, plus research into post-quantum cryptography.
 
 ---
 
-### 🚀 CertPilot
+### 🔧 What I work with
 
-[**certpilot/certpilot**](https://github.com/certpilot/certpilot) — open-source
-PKI and certificate lifecycle management, built for the team that owns the CA
-hierarchy and gets paged when something expires.
+**PKI & cryptography** — X.509 lifecycle automation · intermediate and issuing CA
+rotation · Certificate Transparency log discovery · ACME · mutual TLS ·
+confidential computing · post-quantum cryptography
 
-Built because three problems kept showing up and no tool treated them as the
-main event:
+**Cloud & platform** — Google Cloud (CAS, GKE, IAM) · Kubernetes · Terraform ·
+Docker · Linux · CI/CD security automation
+
+**Building things** — Go · Python · Vue · PostgreSQL
+
+---
+
+### 🚀 Projects
 
 | | |
 |:--|:--|
-| **Finding what nobody registered** | CT logs, cloud accounts, and a host agent for the certificates behind two firewalls that no scan will ever reach |
-| **Landing the renewal where it serves** | Staged rollouts in declared waves, then a handshake to prove it actually took |
-| **Watching the authority** | Issuing CAs on the same clock as everything they sign |
-
-`Go` · `Vue` · `PostgreSQL` · `gRPC` · ACME / HashiCorp Vault / self-signed gateways
-
-<sub>🌐 [Site](https://certpilot-mauve.vercel.app/) · 📖 [API reference](https://certpilot.github.io/certpilot-docs/) · Early development, and the README says so rather than letting you find out.</sub>
-
----
-
-### 🧰 Other things I've built
-
-| | |
-|:--|:--|
-| [**Graphi-X**](https://github.com/mervin008/Graphi-X) | Sketch a maths problem on a canvas and get it solved. Gemini vision reads the drawing; FastAPI serves it. |
+| [**CertPilot**](https://github.com/certpilot/certpilot) | Open-source PKI and certificate lifecycle management. Discovery across CT logs and firewalled hosts, renewals deployed in declared waves, and issuing CAs watched on the same clock as everything they sign. Go, Vue, PostgreSQL. |
+| **MervinX Cloud (MXC)** | A private cloud I run at home — personal storage, container hosting, and a WireGuard tunnel for access. A sandbox for trying cloud ideas properly before they meet anything that matters. |
+| [**Graphi-X**](https://github.com/mervin008/Graphi-X) | Sketch a maths problem on a canvas and get it solved. Gemini vision reads the drawing, FastAPI serves it. Runs on MXC. |
 | [**mxc-ai-bot**](https://github.com/mervin008/mxc-ai-bot) | A Telegram bot with switchable LLM backends — Gemini, OpenAI, DeepSeek — with image input and per-user model selection. |
-| **Terraform Proxmox** | A module for full-clone Proxmox VMs — sizing, networking and cloud-init in one configuration. *(private)* |
+
+Earlier, at university: a low-cost mobile crusher robot for plastic waste
+management, **funded by the Institution of Engineers (India)**; a biometric
+attendance system the college actually deployed; and an IoT home automation build.
+
+---
+
+### 📜 Certifications
+
+`Certified Ethical Hacker (CEH)` — EC-Council ·
+`Associate Cloud Engineer` — Google ·
+`Azure Fundamentals` and `Security, Compliance & Identity Fundamentals` — Microsoft ·
+`Cybersecurity Essentials` — Cisco ·
+`Databricks Fundamentals`, plus Google Cloud skill badges in Vertex AI Search,
+Gemini Enterprise and Apigee X
 
 ---
 
@@ -106,13 +99,14 @@ main event:
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/HashiCorp%20Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white" />
 </p>
 
 ---
 
 <p align="center">
   <sub>
-    Building what's next in PKI, certificate automation and post-quantum readiness.<br/>
-    If you run PKI at real scale, I'd rather you tell me where CertPilot is wrong than star it.
+    BE in Electronics &amp; Communication Engineering, K. Ramakrishnan College of Engineering<br/>
+    Happy to talk about PKI, certificate automation, or anything self-hosted.
   </sub>
 </p>

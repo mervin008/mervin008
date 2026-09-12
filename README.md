@@ -100,15 +100,6 @@ main event:
 
 ---
 
-### 📊 GitHub
-
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=mervin008&show_icons=true&hide_border=true&hide=stars&title_color=0a7ea4&icon_color=0a7ea4&card_width=400" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mervin008&layout=compact&hide_border=true&title_color=0a7ea4&langs_count=6" alt="Top languages" />
-</p>
-
----
-
 <p align="center">
   <sub>
     Building what's next in PKI, certificate automation and post-quantum readiness.<br/>

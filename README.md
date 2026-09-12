@@ -10,6 +10,9 @@
   <a href="https://www.linkedin.com/in/mervinjonesd/">
     <img src="https://img.shields.io/badge/LinkedIn-0a7ea4?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
+  <a href="https://mervinjones.dev/">
+    <img src="https://img.shields.io/badge/mervinjones.dev-0a7ea4?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" />
+  </a>
   <a href="mailto:dmervinjones@gmail.com">
     <img src="https://img.shields.io/badge/Email-0a7ea4?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>

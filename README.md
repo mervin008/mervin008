@@ -52,7 +52,7 @@ $ cat ~/.skills
   └── CI/CD security automation
 
 [ BUILDING ]
-  └── Go · Python · Vue · PostgreSQL
+  └── Go · Python · Swift · Vue · PostgreSQL
 ```
 
 ---
@@ -62,6 +62,7 @@ $ cat ~/.skills
 | | |
 |:--|:--|
 | **[CertPilot](https://github.com/certpilot/certpilot)** | Open-source PKI and certificate lifecycle management. Discovery across CT logs and firewalled hosts, renewals deployed in declared waves, and issuing CAs watched on the same clock as everything they sign. `Go` `Vue` `PostgreSQL` `gRPC` |
+| **[SoundcoreBridge](https://github.com/mervin008/soundcorebridge)** | Native macOS menu bar app & CLI for Soundcore headphones (ANC, EQ, battery). Reverse-engineered Bluetooth RFCOMM protocol co-engineered with Claude as a weekend hack. `Swift 6` `macOS` `IOBluetooth` |
 | **MervinX Cloud (MXC)** | A private cloud I run at home — storage, container hosting, and a WireGuard tunnel for access. Where cloud ideas get tried properly before they meet anything that matters. |
 | **[Graphi-X](https://github.com/mervin008/Graphi-X)** | Sketch a maths problem on a canvas and get it solved. Gemini vision reads the drawing, FastAPI serves it. Runs on MXC. |
 | **[mxc-ai-bot](https://github.com/mervin008/mxc-ai-bot)** | Telegram bot with switchable LLM backends — Gemini, OpenAI, DeepSeek — image input and per-user model selection. |
@@ -106,6 +107,7 @@ Enterprise and Apigee X
 ### `07.` toolbox
 
 <p>
+<img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" />
 <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />

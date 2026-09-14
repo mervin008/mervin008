@@ -22,7 +22,7 @@
 Infrastructure and cloud security engineer, five years in, working on enterprise
 PKI and certificate lifecycle management.
 
-Based in Frankfurt, where I build automated PKI control planes, intermediate CA
+I build automated PKI control planes, intermediate CA
 lifecycles, and cryptographic governance across multi-tenant enterprise
 environments. Most of what I enjoy sits in the unglamorous, load-bearing part of
 security — the systems that quietly hold everything else up, and take a lot with

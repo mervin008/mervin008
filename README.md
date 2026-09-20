@@ -62,6 +62,7 @@ $ cat ~/.skills
 | | |
 |:--|:--|
 | **[CertPilot](https://github.com/certpilot/certpilot)** | Open-source PKI and certificate lifecycle management. Discovery across CT logs and firewalled hosts, renewals deployed in declared waves, and issuing CAs watched on the same clock as everything they sign. `Go` `Vue` `PostgreSQL` `gRPC` |
+| **[CertRadar](https://certradar-smoky.vercel.app/)** | Certificate incident triage on TypeSafe's Jev decision model. Code owns expiry, chain building, SAN coverage and CAA; the model reads the ticket and judges only the certificates code matched, and asks for the CN when it cannot tell. Every request, response and cent on screen. `TypeScript` `React` `Jev` |
 | **[SoundcoreBridge](https://github.com/mervin008/soundcorebridge)** | Native macOS menu bar app & CLI for Soundcore headphones (ANC, EQ, battery). Reverse-engineered Bluetooth RFCOMM protocol co-engineered with Claude as a weekend hack. `Swift 6` `macOS` `IOBluetooth` |
 | **MervinX Cloud (MXC)** | A private cloud I run at home — storage, container hosting, and a WireGuard tunnel for access. Where cloud ideas get tried properly before they meet anything that matters. |
 | **[Graphi-X](https://github.com/mervin008/Graphi-X)** | Sketch a maths problem on a canvas and get it solved. Gemini vision reads the drawing, FastAPI serves it. Runs on MXC. |
@@ -71,6 +72,7 @@ $ cat ~/.skills
 
 ### `04.` writing
 
+- [**Your certificate inventory is exact. Your tickets are not.**](https://mervinjones.dev/blog/certificate-triage-decision-model.html) — splitting certificate triage between code that owns the facts and a model that reads the ticket, measured against an ordinary LLM
 - [**An expiring certificate breaks one service. An expiring CA breaks all of them.**](https://mervinjones.dev/blog/issuing-ca-expiry.html) — everyone automates leaf certificates; almost nobody has a renewal script for an issuing CA
 - [**What Certificate Transparency tells you about your own estate**](https://mervinjones.dev/blog/certificate-transparency-discovery.html) — CT was built to audit CAs. It's also the cheapest inventory tool you have
 - [**Post-quantum: the half you can fix today**](https://mervinjones.dev/blog/post-quantum-key-exchange.html) — signatures are a planning problem; key exchange already shipped

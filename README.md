@@ -62,7 +62,7 @@ $ cat ~/.skills
 | | |
 |:--|:--|
 | **[CertPilot](https://github.com/certpilot/certpilot)** | Open-source PKI and certificate lifecycle management. Discovery across CT logs and firewalled hosts, renewals deployed in declared waves, and issuing CAs watched on the same clock as everything they sign. `Go` `Vue` `PostgreSQL` `gRPC` |
-| **[CertRadar](https://certradar-smoky.vercel.app/)** | Certificate incident triage on TypeSafe's Jev decision model. Code owns expiry, chain building, SAN coverage and CAA; the model reads the ticket and judges only the certificates code matched, and asks for the CN when it cannot tell. Every request, response and cent on screen. `TypeScript` `React` `Jev` |
+| **[CertRadar](https://certradar-jev.mervinjones.dev/)** | Certificate incident triage on TypeSafe's Jev decision model. Code owns expiry, chain building, SAN coverage and CAA; the model reads the ticket and judges only the certificates code matched, and asks for the CN when it cannot tell. Every request, response and cent on screen. `TypeScript` `React` `Jev` |
 | **[SoundcoreBridge](https://github.com/mervin008/soundcorebridge)** | Native macOS menu bar app & CLI for Soundcore headphones (ANC, EQ, battery). Reverse-engineered Bluetooth RFCOMM protocol co-engineered with Claude as a weekend hack. `Swift 6` `macOS` `IOBluetooth` |
 | **MervinX Cloud (MXC)** | A private cloud I run at home — storage, container hosting, and a WireGuard tunnel for access. Where cloud ideas get tried properly before they meet anything that matters. |
 | **[Graphi-X](https://github.com/mervin008/Graphi-X)** | Sketch a maths problem on a canvas and get it solved. Gemini vision reads the drawing, FastAPI serves it. Runs on MXC. |
